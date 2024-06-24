@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/troydutton/troydutton.github.io/static/css/main.e71f98a6.css",
+    "main.js": "/troydutton/troydutton.github.io/static/js/main.90da178f.js",
+    "static/js/453.9c20b0fd.chunk.js": "/troydutton/troydutton.github.io/static/js/453.9c20b0fd.chunk.js",
+    "static/media/devicon.svg?iehcku": "/troydutton/troydutton.github.io/static/media/devicon.de33ff67547800466a48.svg",
+    "static/media/minecraft.png": "/troydutton/troydutton.github.io/static/media/minecraft.89c47e127228ef211795.png",
+    "static/media/mock10.png": "/troydutton/troydutton.github.io/static/media/mock10.2d05b02ba569a430a255.png",
+    "static/media/mock09.png": "/troydutton/troydutton.github.io/static/media/mock09.e18677ccfc932e52d754.png",
+    "static/media/devicon.woff?iehcku": "/troydutton/troydutton.github.io/static/media/devicon.25bdb9cbf8e5f9b4dde9.woff",
+    "static/media/devicon.ttf?iehcku": "/troydutton/troydutton.github.io/static/media/devicon.161b6f3376d6ce5c517d.ttf",
+    "static/media/bg-light.png": "/troydutton/troydutton.github.io/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/rationallama.png": "/troydutton/troydutton.github.io/static/media/rationallama.7229ff11b03799450b34.png",
+    "static/media/mock07.png": "/troydutton/troydutton.github.io/static/media/mock07.3f1110f482232b33c6a2.png",
+    "static/media/mock05.png": "/troydutton/troydutton.github.io/static/media/mock05.4faafa70d200d1519a34.png",
+    "static/media/mock06.png": "/troydutton/troydutton.github.io/static/media/mock06.ea816617e0d0fa0f63ca.png",
+    "static/media/bg-dark.png": "/troydutton/troydutton.github.io/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/avatar.jpg": "/troydutton/troydutton.github.io/static/media/avatar.d5b8c1531b2ef46dfde5.jpg",
+    "index.html": "/troydutton/troydutton.github.io/index.html",
+    "main.e71f98a6.css.map": "/troydutton/troydutton.github.io/static/css/main.e71f98a6.css.map",
+    "main.90da178f.js.map": "/troydutton/troydutton.github.io/static/js/main.90da178f.js.map",
+    "453.9c20b0fd.chunk.js.map": "/troydutton/troydutton.github.io/static/js/453.9c20b0fd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e71f98a6.css",
+    "static/js/main.90da178f.js"
+  ]
+}
