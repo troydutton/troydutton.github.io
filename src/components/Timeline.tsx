@@ -1,7 +1,7 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faBook } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import '../assets/styles/Timeline.scss'
@@ -10,56 +10,56 @@ function Timeline() {
   return (
     <div id="history">
       <div className="items-container">
-        <h1>Career History</h1>
+        <h1>Experience</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
+            date="May 2024 - Present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Machine Learning Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Modern Intelligence - Austin, TX</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Object Detection, Object Classification, and Object Re-ID.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
+            date="Oct 2023 - May 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Computer Vision Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">Texas Spacecraft Laboratory - Austin, TX</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Object Detection, Object Classification, Pose Estimation.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="Aug 2023 - May 2024"
+            iconStyle={{ background: '#0CB577', color: 'rgb(12, 181, 119)' }}
+            icon={<FontAwesomeIcon icon={faBook} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Machine Learning Researcher</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of Texas - Austin, TX</h4>
             <p>
-              Full-stack Development, API Development, User Experience
+              Semantic Segmentation, Phase Retrieval.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2020"
+            date="May 2023 - Aug 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
+            <h3 className="vertical-timeline-element-title">Machine Learning Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Applied Research Laboratories - Austin, TX</h4>
             <p>
-              Automation, Data Governance, Statistical Analysis
+              Semantic Segmentation, Unsupervised Learning.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

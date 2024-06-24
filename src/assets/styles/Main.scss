@@ -9,7 +9,7 @@
     align-items: center;
     width: 100%;
     padding: 0px 15%;
-    min-height: 700px;
+    min-height: 900px;
     background-image: url("../images/bg-dark.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,6 +28,8 @@
         color: white;
 
         svg {
+            width: 1.8em !important; /* Adjust the width as needed */
+            height: 1.8em !important; /* Adjust the height as needed */
             font-size: 1.8em;
         }
     }

@@ -1,0 +1,33 @@
+.skills-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Adjusted for two rows */
+    grid-auto-rows: minmax(200px, auto); /* Adjust row height as needed */
+    gap: 20px; /* Keeping gap consistent */
+    justify-items: center; /* Center items horizontally */
+    max-width: 100%; /* Adjust max-width for centering and margins */
+    // margin: 0 auto; /* Center the container */
+}
+
+.skill-icon {
+    font-size: 100px; /* Adjust size as needed */
+    transition: transform 0.2s;
+    margin-left: 100px;
+}
+
+.skill-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .skills-container {
+        grid-template-columns: repeat(4, 1fr); /* Adjusted for smaller screens */
+        max-width: 90%; /* Adjust for responsiveness */
+    }
+}
