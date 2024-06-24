@@ -2,7 +2,7 @@
   "name": "Personal Portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/troydutton/troydutton.github.io",
+  "homepage": "https://troydutton.github.io",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -20,7 +20,6 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "devicon": "^2.16.0",
-    "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -56,6 +55,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.6"
+    "@types/react-vertical-timeline-component": "^3.3.6",
+    "gh-pages": "^6.1.1"
   }
 }
