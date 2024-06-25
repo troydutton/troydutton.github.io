@@ -1,6 +1,6 @@
 import React from "react";
 import mock06 from '../assets/images/mock06.png';
-import mock09 from '../assets/images/mock09.png';
+import fashionatlas from '../assets/images/fashionatlas.png';
 import recommender from '../assets/images/recommender.png';
 import chess from '../assets/images/chess.png';
 import minecraft from '../assets/images/minecraft.png';
@@ -18,7 +18,7 @@ function Project() {
                 <p>Developing a system which provides contextually informed recommendations by incorporating Large Language Models into traditional recommender systems.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/troydutton/fashion-atlas" target="_blank" rel="noreferrer"><img src={mock09} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/troydutton/fashion-atlas" target="_blank" rel="noreferrer"><img src={fashionatlas} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/troydutton/fashion-atlas" target="_blank" rel="noreferrer"><h2>Fashion Atlas</h2></a>
                 <p>Created a clothing recommendation app that uses object detection and image encoding to suggest similar styles of clothing.</p>
             </div>
