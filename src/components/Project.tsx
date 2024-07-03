@@ -1,5 +1,5 @@
 import React from "react";
-import mock06 from '../assets/images/mock06.png';
+import asli from '../assets/images/asli.png';
 import fashionatlas from '../assets/images/fashionatlas.png';
 import recommender from '../assets/images/recommender.png';
 import chess from '../assets/images/chess.png';
@@ -38,7 +38,7 @@ function Project() {
                 <p>Leveraged reinforcement learning algorithms to train an agent to defeat hostile creatures within the Minecraft environment.</p>
             </div>
             <div className="project">
-                <a href="https://github.com/troydutton/Asli" target="_blank" rel="noreferrer"><img src={mock06} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/troydutton/Asli" target="_blank" rel="noreferrer"><img src={asli} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/troydutton/Asli" target="_blank" rel="noreferrer"><h2>ASL Identifer</h2></a>
                 <p>Designed a real-time American Sign Language classifier which accurately matches hand gestures to their respective letters.</p>
             </div>
