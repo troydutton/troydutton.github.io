@@ -31,7 +31,7 @@ function Skills() {
   const skills = ['JavaScript', 'React', 'NodeJS', 'Python', 'Bash', 'C', 'C++', 'Flask', 'Git', 'PyTorch', 'TensorFlow', 'MongoDB', 'PostgreSQL', 'Linux', 'Java', 'HTML', 'CSS'];
 
   return (
-    <div className="skills-section">
+    <div className="skills-section" id="skills">
       <h2 className="display-4 pb-5 text-center">Skills</h2>
       <div className="skills-container">
         {skills.map((skill) => {
