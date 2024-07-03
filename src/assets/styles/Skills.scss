@@ -2,13 +2,14 @@
     // font-size: 100px; /* Adjust size as needed */
     font-size: 6vw;
     transition: transform 0.2s;
-    margin-left: 100px;
+    // margin-left: 100px;
 }
 
 .skills-section {
     display: flex;
     flex-direction: column;
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .skills-container {
@@ -16,21 +17,12 @@
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Dynamic column adjustment */
     // grid-auto-rows: minmax(200px, auto);
     grid-auto-rows: auto;
-    gap: 40px;
+    gap: 5vw;
     justify-items: center;
+    padding-left: 10vw;
     max-width: 90%;
 }
 
 .skill-icon:hover {
     transform: scale(1.1);
-}
-
-/* Adjustments for smaller screens */
-@media (max-width: 768px) {
-    .skills-container {
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Smaller min size for smaller screens */
-    }
-    .skill-icon {
-        font-size: 6vw; /* Larger relative size for smaller screens */
-    }
 }
