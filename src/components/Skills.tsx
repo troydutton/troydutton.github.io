@@ -28,7 +28,7 @@ const techToDevicon: { [key: string]: string } = {
 
 function Skills() {
   // Hardcoded skills array
-  const skills = ['JavaScript', 'React', 'NodeJS', 'Python', 'Bash', 'C', 'C++', 'Flask', 'Git', 'PyTorch', 'TensorFlow', 'MongoDB', 'PostgreSQL', 'Linux', 'Java', 'HTML', 'CSS'];
+  const skills = ['JavaScript', 'React', 'NodeJS', 'Python', 'Bash', 'C', 'Cplusplus', 'Flask', 'Git', 'PyTorch', 'TensorFlow', 'MongoDB', 'Linux', 'Java', 'HTML', 'CSS'];
 
   return (
     <div className="skills-section" id="skills">
