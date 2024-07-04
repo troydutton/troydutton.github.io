@@ -17,7 +17,7 @@ function Main() {
           <div className="social_icons">
             <a href="https://github.com/troydutton" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/troydutton/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-            <a href="https://drive.google.com/file/d/1aIeOv2HabcNdOkk9T0bygqJLd1I9VZgp/view?usp=sharing" target="_blank" rel="noreferrer"><Article/></a>
+            <a href="https://drive.google.com/file/d/1RxmeBxGNjLX551qefuM3bIq-LfHGxWzT/view?usp=sharing" target="_blank" rel="noreferrer"><Article/></a>
           </div>
           <h1>Troy Dutton</h1>
           <p>Student | Software Engineer | AI Researcher</p>
